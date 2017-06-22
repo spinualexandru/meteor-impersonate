@@ -1,8 +1,8 @@
 Package.describe({
-  name: "gwendall:impersonate",
+  name: "aspinu:impersonate",
   summary: "Impersonate users in Meteor",
   version: "0.2.2",
-  git: "https://github.com/gwendall/meteor-impersonate.git",
+  git: "https://github.com/spinualexandru/meteor-impersonate.git",
 });
 
 Package.onUse(function (api, where) {
@@ -17,6 +17,7 @@ Package.onUse(function (api, where) {
   api.use([
     "random@1.0.5",
     "alanning:roles@1.2.14",
+    "check@1.2.4"
   ]);
 
   api.addFiles([
