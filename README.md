@@ -3,11 +3,12 @@ Meteor Impersonate
 
 Let admins impersonate other users
 
+Maintained version of gwendall:impersonate
 Installation
 ------------
 
 ``` sh
-meteor add gwendall:impersonate
+meteor add aspinu:impersonate
 ```
 
 DOM helpers
